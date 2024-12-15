@@ -15,6 +15,9 @@ For a detailed explanation of the project, visit my Medium post here: [Medium Ar
 2. Install all dependencies listed in the Jupyter Notebook.
 3. Open and execute the notebook file: `CNN for Image Classification.ipynb`.
 
+## Dataset
+The dataset used for this project can be accessed https://drive.google.com/drive/folders/1TdX8q6laqsxTKbmBC47qEPDmuNOWFkOO?usp=drive_link
+
 ## Results
 - Final Test Accuracy: ~80.9%
 - Test Loss: ~0.43
