@@ -11,6 +11,10 @@ The dataset used for this project includes:
 - **Training Set**: 8000 images (4000 cats and 4000 dogs).  
 - **Test Set**: 2000 images (1000 cats and 1000 dogs).  
 - **Single Prediction**: A folder with test images for manual prediction.  
+The dataset used for this project is available on Google Drive.  
+You can download it using the link below:
+
+- **Dataset Link**: [Google Drive - Project Dataset](https://drive.google.com/your-dataset-link-here)
 
 ---
 
