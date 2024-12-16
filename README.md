@@ -1,66 +1,63 @@
-# Project_Chenyu-Zhang-0440447-
+Project_Chenyu-Zhang-0440447
+This repository contains the implementation of a Convolutional Neural Network (CNN) for binary image classification to classify images as "Cat" or "Dog".
 
-This repository contains the implementation of a **Convolutional Neural Network (CNN)** for binary image classification to classify images as **"Cat"** or **"Dog"**.
+Project Overview
+This project focuses on building a Convolutional Neural Network (CNN) to classify images of cats and dogs. The dataset is divided into training and test sets, and the model is evaluated based on its performance on the test data. The purpose of the project is to demonstrate how deep learning models, particularly CNNs, can be applied for image classification tasks.
 
----
+Dataset
+The dataset used for this project includes:
 
-## **Project Overview**
-- **Objective**: Build a CNN model to classify images as either "Cat" or "Dog".  
-- **Dataset**: Contains images divided into training and testing sets.  
-- **Tools and Libraries**:  
-  - **Programming Language**: Python  
-  - **Libraries**: TensorFlow (with Keras), NumPy, Matplotlib  
+Training Set: 8000 images (4000 cats and 4000 dogs).
+Test Set: 2000 images (1000 cats and 1000 dogs).
+Single Prediction: A folder with test images for manual prediction.
+Purpose of the Project
+To implement a Convolutional Neural Network (CNN) using TensorFlow and Keras.
+To preprocess image data for training and testing.
+To train and evaluate the model's performance.
+To predict the class (Cat or Dog) of unseen images.
+Machine Learning Model
+The following steps were implemented to build the CNN:
 
----
+Data Preprocessing:
+Rescaling images using ImageDataGenerator.
+Data augmentation techniques such as horizontal flip, shear, and zoom.
+CNN Architecture:
+Input Layer: (64, 64, 3)
+Convolutional Layers: 2 Conv2D layers with ReLU activation.
+Pooling Layers: 2 MaxPooling2D layers.
+Flattening Layer: To convert multi-dimensional data to one dimension.
+Fully Connected Layer: Dense layer with 128 units.
+Output Layer: Dense layer with 1 unit (Sigmoid activation for binary classification).
+Training and Evaluation:
+Optimizer: Adam
+Loss Function: Binary Cross-Entropy
+Metrics: Accuracy
+Prediction:
+Model predicts an unseen image as "Cat" or "Dog".
+Results
+Training Accuracy: ~84%
+Validation Accuracy: ~77%
+Test Accuracy: ~77%
+The model successfully classifies images into two categories with reasonable accuracy.
 
-## **Instructions to Run the Project**
-Follow these steps to execute the project:
+Links
+GitHub Repository: [Your GitHub Link Here]
+Medium Post: [Your Medium Link Here]
+Conclusion
+This project demonstrates the application of Convolutional Neural Networks for binary image classification. The results are promising and show how CNNs can effectively solve classification problems in image data.
 
-1. **Clone this repository**  
-   Run the following command in your terminal:
-   ```bash
-   git clone https://github.com/Chenyu-Lau/Project_Chenyu-Zhang-0440447-.git
-   cd Project_Chenyu-Zhang-0440447-
-Install Dependencies
-Ensure you have the required libraries installed. Use the following command:
+How to Run the Project
+Clone this repository:
+
+bash
+复制代码
+git clone https://github.com/YourGitHubUsername/Project_Chenyu-Zhang-0440447
+Install the required libraries:
 
 bash
 复制代码
 pip install tensorflow keras numpy matplotlib
-Download the Dataset
-Download the dataset from the following link:
-Download Dataset Here
+Run the Jupyter Notebook file:
 
-Place the dataset into the dataset/ folder.
-Run the Jupyter Notebook
-Open the Jupyter Notebook and execute the main file:
-
-bash
-复制代码
-jupyter notebook "CNN for Image Classification.ipynb"
-Train and Evaluate the Model
-
-Run all cells in the notebook to train the model.
-Evaluate the model performance on the test set.
-Make Predictions
-Place your test images in the single_prediction folder, run the relevant cell, and get predictions for whether the image is a "Cat" or "Dog".
-
-Dataset Details
-Training Set: 4000 images of cats and 4000 images of dogs.
-Test Set: 1000 images of cats and 1000 images of dogs.
-Access Dataset: Google Drive Link
-Results
-The final performance of the CNN model is as follows:
-
-Test Accuracy: ~80.9%
-Test Loss: ~0.43
-Medium Article
-For a detailed explanation of the project, including the methodology, results, and conclusion, visit my Medium post here:
-[Medium Article Link Coming Soon]
-
-Author
-Chenyu Zhang
-Master's Student, Laurentian University, Canada
-
-Acknowledgment
-This project was completed as part of coursework under the guidance of Farhad Abbasi Amiri.
+Execute each cell to preprocess data, build, train, and evaluate the CNN.
+Upload an image in the single_prediction folder and test the model for single image predictions.
