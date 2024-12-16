@@ -62,3 +62,11 @@ The following steps were implemented to build the CNN:
 1. Clone this repository:  
    ```bash
    git clone https://github.com/YourGitHubUsername/Project_Chenyu-Zhang-0440447
+   
+---
+
+## Links
+
+- **GitHub Repository**: [https://github.com/YourGitHubUsername/YourRepositoryName](https://github.com/YourGitHubUsername/YourRepositoryName)  
+- **Medium Post**: [https://medium.com/YourMediumPostLink](https://medium.com/YourMediumPostLink)  
+
