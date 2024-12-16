@@ -1,6 +1,6 @@
 # Project Overview  
 
-This project focuses on building a **Convolutional Neural Network (CNN)** to classify images of cats and dogs. The dataset is divided into training and test sets, and the model is evaluated based on its performance on the test data. The purpose of the project is to demonstrate how deep learning models, particularly CNNs, can be applied for image classification tasks.  
+This project focuses on building a **Convolutional Neural Network (CNN)** to classify images of cats and dogs. The dataset is divided into training sets, Single Prediction Sets and test sets, and the model is evaluated based on its performance on the test data. The purpose of the project is to demonstrate how deep learning models, particularly CNNs, can be applied for image classification tasks.  
 
 ---
 
