@@ -71,6 +71,6 @@ The following steps were implemented to build the CNN:
 
 ## Links
 
-- **GitHub Repository**:https://github.com/YourGitHubUsername/YourRepositoryName](https://github.com/YourGitHubUsername/YourRepositoryName)  ](https://github.com/Chenyu-Lau/Project_Chenyu-Zhang-0440447-.git)
+- **GitHub Repository**: https://github.com/Chenyu-Lau/Project_Chenyu-Zhang-0440447-.git
 - **Medium Post**: https://medium.com/@czhang11/project-overview-cnn-for-cat-vs-dog-image-classification-6a22ea76c486
 
