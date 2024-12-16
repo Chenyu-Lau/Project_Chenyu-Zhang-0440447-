@@ -61,13 +61,6 @@ The following steps were implemented to build the CNN:
 
 ---
 
-## How to Run the Project  
-
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/YourGitHubUsername/Project_Chenyu-Zhang-0440447
-   
----
 
 ## Links
 
